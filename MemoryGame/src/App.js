@@ -1,11 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+// import Header from "./components/Header";
 import characters from './characters.json';
+import "./App.css";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.friends to the characters json array
   state = {
     characters
   };
@@ -21,18 +22,18 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Characters List</Title>
-        {this.state.characters.map(character => (
+          {this.state.characters.map(character => (
           <CharacterCard
             removeCharacter={this.removeCharacter}
             id={character.id}
             key={character.id}
-            name={character.name}
+            //name={character.name}
             image={character.image}
-            occupation={character.occupation}
-            location={friend.location}
+            //occupation={character.occupation}
+            //location={character.location}
             />
         ))}
+      </Wrapper>
     );
   }
 }

@@ -1,4 +1,4 @@
-import Reach from 'react'
+import React from 'react'
 import './CharacterCard.css'
 
 const CharacterCard = props => (
@@ -10,20 +10,8 @@ const CharacterCard = props => (
           src={props.image}
         />
     </div>
-    <div className='content'>
-      <ul>
-        <li>
-          <strong>Name:</strong> {props.name}
-        </li>
-        <li>
-          <strong>Occupation:</strong> {props.occupation}
-        </li>
-        <li>
-          <strong>From:</strong> {props.location}
-        </li>
-      </ul>
-    </div>
+    <span onClick={() => props.removeCharacter(props.id)} className="remove"></span>
   </div>
 );
 
-export default FriendCard
+export default CharacterCard

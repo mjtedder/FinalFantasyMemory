@@ -1,17 +1,13 @@
 [
   {
     "id": 1,
-    "name": "Warrior Of Light",
-    "image": "https://i.pinimg.com/originals/71/d9/58/71d95859c6a253440573daf5bbaf4a15.jpg",
-    "occupation": "Warrior",
-    "location": "Final Fantasy"
+    "name": "Sora",
+    "image": "https://vignette.wikia.nocookie.net/kingdomhearts/images/6/6d/Sora_%28Art%29_KHII.png/revision/latest?cb=20130917025201"
   },
   {
     "id": 2,
     "name": "Firion",
-    "image": "https://static.zerochan.net/Firion.full.66006.jpg",
-    "occupation": "Protagonist",
-    "location": "Final Fantasy II"
+    "image": "https://static.zerochan.net/Firion.full.66006.jpg"
   },
   {
     "id": 3,
