@@ -1,0 +1,15 @@
+#header {
+    border-bottom: 4px double black;
+}
+
+p#title {
+    font-size: 2em;
+    line-height: 20px;
+    margin: 0px 0px;
+}
+p#scores {
+    font-size: 1.5em;
+    line-height: 20px;
+    text-align: right;
+    margin: 0px 0px;
+}

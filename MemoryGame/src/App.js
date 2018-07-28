@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import characters from './characters.json';
 import "./App.css";
 
@@ -22,6 +22,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <Header />
           {this.state.characters.map(character => (
           <CharacterCard
             removeCharacter={this.removeCharacter}
