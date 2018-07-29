@@ -12,71 +12,51 @@
   {
     "id": 3,
     "name": "Arc",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/b/b3/Arc_FF3.jpg/revision/latest?cb=20100922020613",
-    "occupation": "Onion Knight",
-    "location": "Final Fantasy III"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/b/b3/Arc_FF3.jpg/revision/latest?cb=20100922020613"
   },
   {
     "id": 4,
     "name": "Cecil Harvey",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/c/c9/Cecil_FF4DS_CG_Art.png/revision/latest?cb=20130423172229",
-    "occupation": "Paladin",
-    "location": "Final Fantasy IV"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/c/c9/Cecil_FF4DS_CG_Art.png/revision/latest?cb=20130423172229"
   },
   {
     "id": 5,
     "name": "Bartz Klauser",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/9/94/DissidiaBartz.png/revision/latest?cb=20101216073841",
-    "occupation": "Traveller",
-    "location": "Final Fantasy V"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/9/94/DissidiaBartz.png/revision/latest?cb=20101216073841"
   },
   {
     "id": 6,
     "name": "Locke Cole",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/3/37/Locke_III.jpg/revision/latest?cb=20120725044124",
-    "occupation": "Thief",
-    "location": "Final Fantasy VI"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/3/37/Locke_III.jpg/revision/latest?cb=20120725044124"
   },
   {
     "id": 7,
     "name": "Cloud Strife",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/1/1a/Cloud-FFVIIArt.png/revision/latest?cb=20110227161510",
-    "occupation": "Ex Soldier",
-    "location": "Final Fantasy VII"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/1/1a/Cloud-FFVIIArt.png/revision/latest?cb=20110227161510"
   },
   {
     "id": 8,
     "name": "Squall Leonhart",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/d/d2/Ff8-squall.jpg/revision/latest?cb=20100603174959",
-    "occupation": "Angsty Teen",
-    "location": "Final Fantasy VIII"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/d/d2/Ff8-squall.jpg/revision/latest?cb=20100603174959"
   },
   {
     "id": 9,
     "name": "Vivi Ornitier",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/2/2d/Vivi_Ornitier_character.jpg/revision/latest?cb=20100818231822",
-    "occupation": "Black Mage",
-    "location": "Final Fantasy IX"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/2/2d/Vivi_Ornitier_character.jpg/revision/latest?cb=20100818231822"
   },
   {
     "id": 10,
     "name": "Tidus",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/e/e7/FFX_Artwork_Tidus.png/revision/latest?cb=20180309234959",
-    "occupation": "Blitz Ball Player",
-    "location": "Besaid"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/e/e7/FFX_Artwork_Tidus.png/revision/latest?cb=20180309234959"
   },
   {
     "id": 11,
     "name": "Ashe",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/8/8a/Ashe_Alt_Render.png/revision/latest?cb=20171227195421",
-    "occupation": "Princess",
-    "location": "Ivalice"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/8/8a/Ashe_Alt_Render.png/revision/latest?cb=20171227195421"
   },
   {
     "id": 12,
     "name": "Lightning",
-    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/c/c6/FFXIII-Lightning_CG.png/revision/latest?cb=20150918214724",
-    "occupation": "Guardian Corps",
-    "location": "Final Fantasy XIII"
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/c/c6/FFXIII-Lightning_CG.png/revision/latest?cb=20150918214724"
   }
 ]

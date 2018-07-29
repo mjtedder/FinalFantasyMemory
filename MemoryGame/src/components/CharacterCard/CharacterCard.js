@@ -10,7 +10,6 @@ const CharacterCard = props => (
           src={props.image}
         />
     </div>
-    <span onClick={() => props.removeCharacter(props.id)} className="remove"></span>
   </div>
 );
 

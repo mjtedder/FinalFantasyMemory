@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import Score from '../Score'
 
 const Header = (props) => (
     <div id='header'>
@@ -12,7 +13,7 @@ const Header = (props) => (
           <p id='message'></p>
         </div>
         <div className='col-md-4'>
-          <p id='scores'>{`Your Score: 0 Top Score: 0`}</p>
+          <p id='scores'>{`Your Score: ${props.Score} Top Score: 0`}</p>
         </div>
       </div>
     </div>
