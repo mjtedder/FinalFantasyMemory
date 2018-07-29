@@ -15,7 +15,22 @@ class App extends Component {
   };
 
   // TODO: Click handler for cards, score props
+  shuffleCards = () => {
+    let shuffledCards = new Array(characters.length)
+    characters.forEach((id, image, arr) => {
+      let randomIndex;
+      do {
+        randomIndex = Math.floor(Math.random() * shuffledCards.length)
+      } while (shuffledCards[randomIndex])
+        shuffledCards.splice(randomIndex, 1, id)
+    })
 
+    this.setState({characters: shuffledCards})
+  }
+
+  componentDidMount() {
+    this.shuffleCards()
+  }
 
   // Map over this.state.characters and render a CharacterCard component for each character object
   render() {
