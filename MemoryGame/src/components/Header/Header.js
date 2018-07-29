@@ -12,7 +12,7 @@ const Header = (props) => (
           <p id='message'></p>
         </div>
         <div className='col-md-4'>
-          <p id='scores'>{`Your Score: ${props.score} Top Score: ${props.topScore}`}</p>
+          <p id='scores'>{`Your Score: 0 Top Score: 0`}</p>
         </div>
       </div>
     </div>
