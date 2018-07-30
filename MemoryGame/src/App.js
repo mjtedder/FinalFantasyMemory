@@ -39,7 +39,8 @@ class App extends Component {
         <Header />
           {this.state.characters.map(character => (
           <CharacterCard
-            id={character.id}
+            key={character.id}
+            clicked={character.clicked}
             image={character.image}
             />
         ))}
