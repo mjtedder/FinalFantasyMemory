@@ -6,15 +6,46 @@ import characters from './characters.json';
 import Score from './components/Score'
 import "./App.css";
 
-const score = []
-
 class App extends Component {
   // Setting this.state.friends to the characters json array
   state = {
-    characters
+    characters: characters,
+    score: 0,
+    topScore: 0
   };
 
   // TODO: Click handler for cards, score props
+
+  handleClick = (inputCard) => {
+
+      this.state.characters.forEach(currentCard => {
+        console.log( currentCard.clicked )
+        if(inputCard === currentCard.id) {
+          if(currentCard.clicked === true) {
+            this.handleIncorrectGuess()
+          } else {
+              currentCard.clicked = true;
+              this.handleCorrectGuess()
+          }
+        }
+      })
+    }
+
+  handleCorrectGuess = () => {
+    this.state.characters.forEach((card) => {
+      card.clicked = false
+    })
+    // pass in score component to increment score
+    this.shuffleCards()
+  }
+
+  handleIncorrectGuess = () => {
+    characters.forEach((id, clicked) => {
+      console.log('works')
+      //resets data
+    })
+  }
+
   shuffleCards = () => {
     let shuffledCards = new Array(characters.length)
     characters.forEach((id, image, arr) => {
@@ -24,7 +55,6 @@ class App extends Component {
       } while (shuffledCards[randomIndex])
         shuffledCards.splice(randomIndex, 1, id)
     })
-
     this.setState({characters: shuffledCards})
   }
 
@@ -39,7 +69,9 @@ class App extends Component {
         <Header />
           {this.state.characters.map(character => (
           <CharacterCard
+            handleClick={this.handleClick}
             key={character.id}
+            id={character.id}
             clicked={character.clicked}
             image={character.image}
             />
